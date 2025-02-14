@@ -2,7 +2,7 @@
 //  FeedVC.swift
 //  MindMazeExpedition
 //
-//  Created by jin fu on 14/02/25.
+//  Created by MindMaze Expedition on 14/02/25.
 //
 
 import Foundation

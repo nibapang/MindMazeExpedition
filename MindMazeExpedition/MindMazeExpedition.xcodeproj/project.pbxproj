@@ -204,6 +204,7 @@
 				FFDE685C2D5F441F0002C008 /* Frameworks */,
 				FFDE685D2D5F441F0002C008 /* Resources */,
 				8F3CB65FC58704EA67AB3D03 /* [CP] Embed Pods Frameworks */,
+				EC723FB3698B806A95CE5410 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +282,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindMazeExpedition/Pods-MindMazeExpedition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC723FB3698B806A95CE5410 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindMazeExpedition/Pods-MindMazeExpedition-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindMazeExpedition/Pods-MindMazeExpedition-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindMazeExpedition/Pods-MindMazeExpedition-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6B34C10D6E78E1654966CDD /* [CP] Check Pods Manifest.lock */ = {
@@ -497,6 +515,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MindMazeExpedition/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "MindMaze Expedition";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "MindMaze Expedition Needs access to certain device information to optimize your gaming experience. By analyzing your device data, we ensure a smooth gaming experience, personalized features and enhanced performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -534,6 +553,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MindMazeExpedition/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "MindMaze Expedition";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "MindMaze Expedition Needs access to certain device information to optimize your gaming experience. By analyzing your device data, we ensure a smooth gaming experience, personalized features and enhanced performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
