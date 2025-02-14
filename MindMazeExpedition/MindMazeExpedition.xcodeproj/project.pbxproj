@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BF0A4C9263476E48440949A /* Pods_MindMazeExpedition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC919B9D607642E91AD8151 /* Pods_MindMazeExpedition.framework */; };
+		FFDE68632D5F441F0002C008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68622D5F441F0002C008 /* AppDelegate.swift */; };
+		FFDE68652D5F441F0002C008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68642D5F441F0002C008 /* SceneDelegate.swift */; };
+		FFDE68672D5F441F0002C008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68662D5F441F0002C008 /* ViewController.swift */; };
+		FFDE686A2D5F441F0002C008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDE68682D5F441F0002C008 /* Main.storyboard */; };
+		FFDE686C2D5F44200002C008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDE686B2D5F44200002C008 /* Assets.xcassets */; };
+		FFDE686F2D5F44200002C008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDE686D2D5F44200002C008 /* LaunchScreen.storyboard */; };
+		FFDE68772D5F52CD0002C008 /* UIView+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68762D5F52CD0002C008 /* UIView+color.swift */; };
+		FFDE68792D5F53210002C008 /* ExpeditionAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68782D5F53210002C008 /* ExpeditionAboutVC.swift */; };
+		FFDE687B2D5F53360002C008 /* ExpeditionFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE687A2D5F53360002C008 /* ExpeditionFeedVC.swift */; };
+		FFDE687D2D5F534F0002C008 /* ExpeditionPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE687C2D5F534F0002C008 /* ExpeditionPrivacyVC.swift */; };
+		FFDE687F2D5F536B0002C008 /* ExpeditionSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE687E2D5F536B0002C008 /* ExpeditionSettingVC.swift */; };
+		FFDE68832D5F53FE0002C008 /* arrow.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFDE68822D5F53FE0002C008 /* arrow.wav */; };
+		FFDE68862D5F541E0002C008 /* ExpeditionEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68852D5F541E0002C008 /* ExpeditionEffects.swift */; };
+		FFDE68882D5F54300002C008 /* ExpeditionMazeStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68872D5F54300002C008 /* ExpeditionMazeStartVC.swift */; };
+		FFDE688A2D5F54500002C008 /* ExpeditionHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68892D5F54500002C008 /* ExpeditionHomeVC.swift */; };
+		FFDE688C2D5F54690002C008 /* ExpeditionArrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE688B2D5F54690002C008 /* ExpeditionArrows.swift */; };
+		FFDE688E2D5F54840002C008 /* ExpeditionManageGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE688D2D5F54840002C008 /* ExpeditionManageGameVC.swift */; };
+		FFDE68912D5F54CA0002C008 /* ExpeditionManageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68902D5F54CA0002C008 /* ExpeditionManageCell.swift */; };
+		FFDE68932D5F54E30002C008 /* ExpeditionGridduelGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68922D5F54E30002C008 /* ExpeditionGridduelGameViewController.swift */; };
+		FFDE68952D5F54F70002C008 /* ExpeditionPingoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68942D5F54F70002C008 /* ExpeditionPingoCell.swift */; };
+		FFDE68972D5F55100002C008 /* ExpeditionEndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68962D5F55100002C008 /* ExpeditionEndGameViewController.swift */; };
+		FFDE68992D5F55530002C008 /* UIColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE68982D5F55530002C008 /* UIColor+ext.swift */; };
+		FFDE689B2D5F566D0002C008 /* ExpeditionNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE689A2D5F566D0002C008 /* ExpeditionNavigationController.swift */; };
+		FFDE689F2D5F59F60002C008 /* UIViewController+ext.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE689E2D5F59F60002C008 /* UIViewController+ext.m */; };
+		FFDE68A12D5F5D240002C008 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFDE68A02D5F5D240002C008 /* GoogleService-Info.plist */; };
+		FFDE68A72D5F5D500002C008 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFDE68A92D5F5D500002C008 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DAD2EAF99413AC7EE850A62 /* Pods-MindMazeExpedition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindMazeExpedition.debug.xcconfig"; path = "Target Support Files/Pods-MindMazeExpedition/Pods-MindMazeExpedition.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC919B9D607642E91AD8151 /* Pods_MindMazeExpedition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindMazeExpedition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9615E5DAF148C44AD023444A /* Pods-MindMazeExpedition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindMazeExpedition.release.xcconfig"; path = "Target Support Files/Pods-MindMazeExpedition/Pods-MindMazeExpedition.release.xcconfig"; sourceTree = "<group>"; };
+		FFDE685F2D5F441F0002C008 /* MindMazeExpedition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindMazeExpedition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDE68622D5F441F0002C008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFDE68642D5F441F0002C008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFDE68662D5F441F0002C008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFDE68692D5F441F0002C008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDE686B2D5F44200002C008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFDE686E2D5F44200002C008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDE68702D5F44200002C008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDE68762D5F52CD0002C008 /* UIView+color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+color.swift"; sourceTree = "<group>"; };
+		FFDE68782D5F53210002C008 /* ExpeditionAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionAboutVC.swift; sourceTree = "<group>"; };
+		FFDE687A2D5F53360002C008 /* ExpeditionFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionFeedVC.swift; sourceTree = "<group>"; };
+		FFDE687C2D5F534F0002C008 /* ExpeditionPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionPrivacyVC.swift; sourceTree = "<group>"; };
+		FFDE687E2D5F536B0002C008 /* ExpeditionSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionSettingVC.swift; sourceTree = "<group>"; };
+		FFDE68822D5F53FE0002C008 /* arrow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = arrow.wav; sourceTree = "<group>"; };
+		FFDE68852D5F541E0002C008 /* ExpeditionEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionEffects.swift; sourceTree = "<group>"; };
+		FFDE68872D5F54300002C008 /* ExpeditionMazeStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionMazeStartVC.swift; sourceTree = "<group>"; };
+		FFDE68892D5F54500002C008 /* ExpeditionHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionHomeVC.swift; sourceTree = "<group>"; };
+		FFDE688B2D5F54690002C008 /* ExpeditionArrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionArrows.swift; sourceTree = "<group>"; };
+		FFDE688D2D5F54840002C008 /* ExpeditionManageGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionManageGameVC.swift; sourceTree = "<group>"; };
+		FFDE68902D5F54CA0002C008 /* ExpeditionManageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionManageCell.swift; sourceTree = "<group>"; };
+		FFDE68922D5F54E30002C008 /* ExpeditionGridduelGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionGridduelGameViewController.swift; sourceTree = "<group>"; };
+		FFDE68942D5F54F70002C008 /* ExpeditionPingoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionPingoCell.swift; sourceTree = "<group>"; };
+		FFDE68962D5F55100002C008 /* ExpeditionEndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionEndGameViewController.swift; sourceTree = "<group>"; };
+		FFDE68982D5F55530002C008 /* UIColor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ext.swift"; sourceTree = "<group>"; };
+		FFDE689A2D5F566D0002C008 /* ExpeditionNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionNavigationController.swift; sourceTree = "<group>"; };
+		FFDE689C2D5F59F50002C008 /* MindMazeExpedition-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MindMazeExpedition-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFDE689D2D5F59F60002C008 /* UIViewController+ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ext.h"; sourceTree = "<group>"; };
+		FFDE689E2D5F59F60002C008 /* UIViewController+ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ext.m"; sourceTree = "<group>"; };
+		FFDE68A02D5F5D240002C008 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "MindMazeExpedition/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FFDE68A22D5F5D2A0002C008 /* MindMazeExpedition.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MindMazeExpedition.entitlements; sourceTree = "<group>"; };
+		FFDE68A32D5F5D3F0002C008 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		FFDE68A42D5F5D3F0002C008 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FFDE68A82D5F5D500002C008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FFDE68AA2D5F5D550002C008 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDE685C2D5F441F0002C008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF0A4C9263476E48440949A /* Pods_MindMazeExpedition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B5F05EB3C318895F9D6D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DAD2EAF99413AC7EE850A62 /* Pods-MindMazeExpedition.debug.xcconfig */,
+				9615E5DAF148C44AD023444A /* Pods-MindMazeExpedition.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C460CDF53E76EA7B417E1516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FC919B9D607642E91AD8151 /* Pods_MindMazeExpedition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFDE68562D5F441F0002C008 = {
+			isa = PBXGroup;
+			children = (
+				FFDE68612D5F441F0002C008 /* MindMazeExpedition */,
+				FFDE68602D5F441F0002C008 /* Products */,
+				07B5F05EB3C318895F9D6D7C /* Pods */,
+				C460CDF53E76EA7B417E1516 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDE68602D5F441F0002C008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE685F2D5F441F0002C008 /* MindMazeExpedition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDE68612D5F441F0002C008 /* MindMazeExpedition */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE68A22D5F5D2A0002C008 /* MindMazeExpedition.entitlements */,
+				FFDE688F2D5F54C20002C008 /* Cell */,
+				FFDE68842D5F54140002C008 /* Help */,
+				FFDE68812D5F53840002C008 /* extention */,
+				FFDE68802D5F53790002C008 /* resource */,
+				FFDE68622D5F441F0002C008 /* AppDelegate.swift */,
+				FFDE68642D5F441F0002C008 /* SceneDelegate.swift */,
+				FFDE68872D5F54300002C008 /* ExpeditionMazeStartVC.swift */,
+				FFDE68662D5F441F0002C008 /* ViewController.swift */,
+				FFDE68782D5F53210002C008 /* ExpeditionAboutVC.swift */,
+				FFDE687A2D5F53360002C008 /* ExpeditionFeedVC.swift */,
+				FFDE687C2D5F534F0002C008 /* ExpeditionPrivacyVC.swift */,
+				FFDE687E2D5F536B0002C008 /* ExpeditionSettingVC.swift */,
+				FFDE68892D5F54500002C008 /* ExpeditionHomeVC.swift */,
+				FFDE688D2D5F54840002C008 /* ExpeditionManageGameVC.swift */,
+				FFDE68922D5F54E30002C008 /* ExpeditionGridduelGameViewController.swift */,
+				FFDE68962D5F55100002C008 /* ExpeditionEndGameViewController.swift */,
+				FFDE689A2D5F566D0002C008 /* ExpeditionNavigationController.swift */,
+				FFDE68682D5F441F0002C008 /* Main.storyboard */,
+				FFDE686B2D5F44200002C008 /* Assets.xcassets */,
+				FFDE686D2D5F44200002C008 /* LaunchScreen.storyboard */,
+				FFDE68702D5F44200002C008 /* Info.plist */,
+			);
+			path = MindMazeExpedition;
+			sourceTree = "<group>";
+		};
+		FFDE68802D5F53790002C008 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE68A02D5F5D240002C008 /* GoogleService-Info.plist */,
+				FFDE68822D5F53FE0002C008 /* arrow.wav */,
+				FFDE68A92D5F5D500002C008 /* Localizable.strings */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		FFDE68812D5F53840002C008 /* extention */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE68762D5F52CD0002C008 /* UIView+color.swift */,
+				FFDE68982D5F55530002C008 /* UIColor+ext.swift */,
+				FFDE689D2D5F59F60002C008 /* UIViewController+ext.h */,
+				FFDE689E2D5F59F60002C008 /* UIViewController+ext.m */,
+				FFDE689C2D5F59F50002C008 /* MindMazeExpedition-Bridging-Header.h */,
+			);
+			path = extention;
+			sourceTree = "<group>";
+		};
+		FFDE68842D5F54140002C008 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE68852D5F541E0002C008 /* ExpeditionEffects.swift */,
+				FFDE688B2D5F54690002C008 /* ExpeditionArrows.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		FFDE688F2D5F54C20002C008 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE68902D5F54CA0002C008 /* ExpeditionManageCell.swift */,
+				FFDE68942D5F54F70002C008 /* ExpeditionPingoCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDE685E2D5F441F0002C008 /* MindMazeExpedition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDE68732D5F44200002C008 /* Build configuration list for PBXNativeTarget "MindMazeExpedition" */;
+			buildPhases = (
+				F6B34C10D6E78E1654966CDD /* [CP] Check Pods Manifest.lock */,
+				FFDE685B2D5F441F0002C008 /* Sources */,
+				FFDE685C2D5F441F0002C008 /* Frameworks */,
+				FFDE685D2D5F441F0002C008 /* Resources */,
+				8F3CB65FC58704EA67AB3D03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindMazeExpedition;
+			productName = MindMazeExpedition;
+			productReference = FFDE685F2D5F441F0002C008 /* MindMazeExpedition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDE68572D5F441F0002C008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FFDE685E2D5F441F0002C008 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = FFDE685A2D5F441F0002C008 /* Build configuration list for PBXProject "MindMazeExpedition" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = FFDE68562D5F441F0002C008;
+			productRefGroup = FFDE68602D5F441F0002C008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDE685E2D5F441F0002C008 /* MindMazeExpedition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDE685D2D5F441F0002C008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE68832D5F53FE0002C008 /* arrow.wav in Resources */,
+				FFDE68A72D5F5D500002C008 /* Localizable.strings in Resources */,
+				FFDE686F2D5F44200002C008 /* LaunchScreen.storyboard in Resources */,
+				FFDE68A12D5F5D240002C008 /* GoogleService-Info.plist in Resources */,
+				FFDE686C2D5F44200002C008 /* Assets.xcassets in Resources */,
+				FFDE686A2D5F441F0002C008 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F3CB65FC58704EA67AB3D03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindMazeExpedition/Pods-MindMazeExpedition-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindMazeExpedition/Pods-MindMazeExpedition-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindMazeExpedition/Pods-MindMazeExpedition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B34C10D6E78E1654966CDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindMazeExpedition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDE685B2D5F441F0002C008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE687B2D5F53360002C008 /* ExpeditionFeedVC.swift in Sources */,
+				FFDE687F2D5F536B0002C008 /* ExpeditionSettingVC.swift in Sources */,
+				FFDE68932D5F54E30002C008 /* ExpeditionGridduelGameViewController.swift in Sources */,
+				FFDE688E2D5F54840002C008 /* ExpeditionManageGameVC.swift in Sources */,
+				FFDE68772D5F52CD0002C008 /* UIView+color.swift in Sources */,
+				FFDE68972D5F55100002C008 /* ExpeditionEndGameViewController.swift in Sources */,
+				FFDE68792D5F53210002C008 /* ExpeditionAboutVC.swift in Sources */,
+				FFDE68672D5F441F0002C008 /* ViewController.swift in Sources */,
+				FFDE68952D5F54F70002C008 /* ExpeditionPingoCell.swift in Sources */,
+				FFDE68912D5F54CA0002C008 /* ExpeditionManageCell.swift in Sources */,
+				FFDE68632D5F441F0002C008 /* AppDelegate.swift in Sources */,
+				FFDE689B2D5F566D0002C008 /* ExpeditionNavigationController.swift in Sources */,
+				FFDE68992D5F55530002C008 /* UIColor+ext.swift in Sources */,
+				FFDE68882D5F54300002C008 /* ExpeditionMazeStartVC.swift in Sources */,
+				FFDE689F2D5F59F60002C008 /* UIViewController+ext.m in Sources */,
+				FFDE68652D5F441F0002C008 /* SceneDelegate.swift in Sources */,
+				FFDE68862D5F541E0002C008 /* ExpeditionEffects.swift in Sources */,
+				FFDE688C2D5F54690002C008 /* ExpeditionArrows.swift in Sources */,
+				FFDE688A2D5F54500002C008 /* ExpeditionHomeVC.swift in Sources */,
+				FFDE687D2D5F534F0002C008 /* ExpeditionPrivacyVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFDE68682D5F441F0002C008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDE68692D5F441F0002C008 /* Base */,
+				FFDE68A32D5F5D3F0002C008 /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDE686D2D5F44200002C008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDE686E2D5F44200002C008 /* Base */,
+				FFDE68A42D5F5D3F0002C008 /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDE68A92D5F5D500002C008 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDE68A82D5F5D500002C008 /* en */,
+				FFDE68AA2D5F5D550002C008 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDE68712D5F44200002C008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFDE68722D5F44200002C008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDE68742D5F44200002C008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAD2EAF99413AC7EE850A62 /* Pods-MindMazeExpedition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MindMazeExpedition/MindMazeExpedition.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindMazeExpedition/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MindMaze Expedition";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Mind.MazeExpedition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MindMazeExpedition/extention/MindMazeExpedition-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFDE68752D5F44200002C008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9615E5DAF148C44AD023444A /* Pods-MindMazeExpedition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MindMazeExpedition/MindMazeExpedition.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindMazeExpedition/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MindMaze Expedition";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Mind.MazeExpedition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MindMazeExpedition/extention/MindMazeExpedition-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDE685A2D5F441F0002C008 /* Build configuration list for PBXProject "MindMazeExpedition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDE68712D5F44200002C008 /* Debug */,
+				FFDE68722D5F44200002C008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDE68732D5F44200002C008 /* Build configuration list for PBXNativeTarget "MindMazeExpedition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDE68742D5F44200002C008 /* Debug */,
+				FFDE68752D5F44200002C008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDE68572D5F441F0002C008 /* Project object */;
+}

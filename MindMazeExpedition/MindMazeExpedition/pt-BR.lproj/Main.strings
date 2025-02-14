@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "2"; ObjectID = "1SG-Ac-uTS"; */
+"1SG-Ac-uTS.text" = "2";
+
+/* Class = "UILabel"; text = "TRAFFIC HIGH"; ObjectID = "3zO-T0-gCJ"; */
+"3zO-T0-gCJ.text" = "TRAFFIC HIGH";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "4bw-bR-ge6"; */
+"4bw-bR-ge6.text" = "Feedback";
+
+/* Class = "UILabel"; text = "PLAYER"; ObjectID = "8M1-Wb-5T0"; */
+"8M1-Wb-5T0.text" = "PLAYER";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "BWf-uG-CK7"; */
+"BWf-uG-CK7.text" = "1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nzy-fr-n7n"; */
+"Nzy-fr-n7n.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "RESTART"; ObjectID = "OH3-bS-UMf"; */
+"OH3-bS-UMf.normalTitle" = "RESTART";
+
+/* Class = "UILabel"; text = "PLAYER"; ObjectID = "PQd-Ao-IN7"; */
+"PQd-Ao-IN7.text" = "PLAYER";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "TRb-DK-EED"; */
+"TRb-DK-EED.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "HOME"; ObjectID = "WTD-Iu-wef"; */
+"WTD-Iu-wef.normalTitle" = "HOME";
+
+/* Class = "UILabel"; text = "SCORE"; ObjectID = "Wl1-f7-YAq"; */
+"Wl1-f7-YAq.text" = "SCORE";
+
+/* Class = "UILabel"; text = "About us"; ObjectID = "aZZ-9P-fbC"; */
+"aZZ-9P-fbC.text" = "About us";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "bRA-xC-lz5"; */
+"bRA-xC-lz5.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "MIND MAZE EXPEDITION"; ObjectID = "cfq-I5-bI5"; */
+"cfq-I5-bI5.text" = "MIND MAZE EXPEDITION";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "dEi-eg-JjW"; */
+"dEi-eg-JjW.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "SETTING"; ObjectID = "kKh-GH-mqk"; */
+"kKh-GH-mqk.text" = "SETTING";
+
+/* Class = "UITextView"; text = "About Us – MindMaze Expedition\n\nMindMaze Expedition is a thrilling puzzle game designed to challenge your logic and strategy skills. Featuring engaging modes like Traffic High and Grid Lock Duel, the game pushes players to think critically, plan ahead, and solve complex grid-based puzzles. Whether you’re navigating arrows or escaping gridlocks, each level tests your reflexes and sharpens your mind. Perfect for all ages, MindMaze Expedition offers a fun yet mentally stimulating experience. With its intuitive design and captivating challenges, it’s more than just a game—it’s an expedition into the depths of your problem-solving abilities. Start your journey today!"; ObjectID = "lse-D8-fRo"; */
+"lse-D8-fRo.text" = "About Us – MindMaze Expedition\n\nMindMaze Expedition is a thrilling puzzle game designed to challenge your logic and strategy skills. Featuring engaging modes like Traffic High and Grid Lock Duel, the game pushes players to think critically, plan ahead, and solve complex grid-based puzzles. Whether you’re navigating arrows or escaping gridlocks, each level tests your reflexes and sharpens your mind. Perfect for all ages, MindMaze Expedition offers a fun yet mentally stimulating experience. With its intuitive design and captivating challenges, it’s more than just a game—it’s an expedition into the depths of your problem-solving abilities. Start your journey today!";
+
+/* Class = "UILabel"; text = "END GAME"; ObjectID = "qO3-zM-AR9"; */
+"qO3-zM-AR9.text" = "END GAME";
+
+/* Class = "UILabel"; text = "GRID LOCK DUEL"; ObjectID = "sfP-vd-NeO"; */
+"sfP-vd-NeO.text" = "GRID LOCK DUEL";
+
+/* Class = "UILabel"; text = "TRAFFIC HIGH"; ObjectID = "uvh-kq-8H5"; */
+"uvh-kq-8H5.text" = "TRAFFIC HIGH";
+
+/* Class = "UILabel"; text = "SETTING"; ObjectID = "yGy-E9-OYq"; */
+"yGy-E9-OYq.text" = "SETTING";
+
+/* Class = "UILabel"; text = "GRID LOCK DUEL"; ObjectID = "zxl-Vk-GMf"; */
+"zxl-Vk-GMf.text" = "GRID LOCK DUEL";
