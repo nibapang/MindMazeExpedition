@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '13.2'
 
 target 'MindMazeExpedition' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -9,4 +9,12 @@ target 'MindMazeExpedition' do
   pod 'SwiftConfettiView'
   pod 'Firebase/Messaging'
   pod 'AppsFlyerFramework', '6.14.4'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings["IPHONEOS_DEPLOYMENT_TARGET"] = "13.2"
+    end
+  end
 end
